@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 100%
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<h1>wSimple Image Gallery</h1>
+<div class="gallery">
+    <img src="https://i.redd.it/es956umo6u311.jpg" alt="Image 1">
+    <img src="https://i.redd.it/vyd5d3t105la1.jpg" alt="Image 2">   
+    <img src="https://variety.com/wp-content/uploads/2019/04/sekiro.jpg" alt="Image 4">
+    <img src="https://blog.playstation.com/tachyon/2022/01/d7f8cefe5d4f53c2fc90148cc581c7734ea30d19-scaled.jpg" alt="Image 5">
+    <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/07/cyberpunk-2077-phantom-liberty-redemption.jpg" alt="Image 7">
+    <img src="https://cdn.marvel.com/content/1x/msm2_gameplayreveal_mileswebwings_4k_legal_2023.jpg" alt="Image 8">
+    <img src="https://live.staticflickr.com/65535/53628786999_673ecbb0d1_h.jpg" alt="Image 9">
+    <img src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/acd78335eb7005ef4ec07c00747052d0/24db5fb7-5be5-4431-a6a7-b153a3b26cba_rw_1920.jpg?h=d5e94f3bea9aace22c98096ea6df8824" alt="Image 10">
+    <img src="https://cdn2.unrealengine.com/the-first-gameplay-preview-of-alan-wake-2-1920x1080-6cd1f0e9b2df.jpg" alt="Image 11">
+    <img src="https://i.redd.it/nduksi52zrs41.jpg" alt="Image 6">
+</div>
+
+</body>
+</html>
